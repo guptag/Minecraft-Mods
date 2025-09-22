@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kg:mini_car",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/mini_car"
+			},
+			"geometry": {
+				"default": "geometry.mini_car"
+			},
+			"animations": {
+				"move": "animation.mini_car.move",
+				"idle": "animation.mini_car.idle"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.is_moving"
+					},
+					{
+						"idle": "!query.is_moving"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "mini_car",
+				"texture_index": 0
+			}
+		}
+	}
+}

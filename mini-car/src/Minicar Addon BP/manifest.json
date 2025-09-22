@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Krishna"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.32"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "78358ce6-b106-423f-8444-8b6fb88449ba",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0e29733b-f428-4f04-b4fd-89b6acf6527c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b58e19bb-dcfb-43a9-81a9-3ec75d066e38",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

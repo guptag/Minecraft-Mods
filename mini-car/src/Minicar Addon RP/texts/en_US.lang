@@ -1,0 +1,7 @@
+pack.name=Minicar Addon RP
+pack.description=
+
+action.hint.ride.mini_car=Ride
+entity.kg:mini_car.name=Minicar
+
+item.spawn_egg.entity.kg:mini_car.name=Minicar

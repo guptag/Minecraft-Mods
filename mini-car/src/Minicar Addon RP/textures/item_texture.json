@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "Minicar Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"mini_car": {
+			"textures": [
+				"textures/items/mini_car"
+			]
+		}
+	}
+}
